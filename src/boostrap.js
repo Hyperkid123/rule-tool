@@ -1,3 +1,4 @@
+import { Button } from "@patternfly/react-core"
 import React, { Fragment } from "react"
 import { render } from "react-dom"
 
@@ -98,7 +99,7 @@ const AsyncComponent = () => {
 const App = () => {
   return (
     <Fragment>
-      <div>There will be dragons</div>
+      <Button>PF button</Button>
       <AsyncComponent />
     </Fragment>
   )
